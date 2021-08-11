@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*adjusting link color might change who knows*/
+a{
+    color: white;
+    text-decoration: none;
+}
+/*might be temporary idk*/
+body{
+    font-family:  'Times New Roman', Times, serif;
+    color:black;
+}
+/*start of header styling*/
+header{
+    background-color: mediumaquamarine;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h1{
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+    margin: 0;
+}
+header nav{
+    margin: 7px 0;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.65vw;
+    border: 2px solid black;
+    padding: 2px;
+}
+/*end header styling for now*/
+.aboutme{
+
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.aboutme h2{
+    font-size: 48px;
+}
+.aboutmetxt{
+    display:flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
