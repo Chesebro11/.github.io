@@ -1,61 +1,48 @@
-*{
+/*standard page correction stuff*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/*adjusting link color might change who knows*/
-a{
-    color: white;
-    text-decoration: none;
+/*setting font and background color*/
+body {
+    background: #efeee7;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
-/*might be temporary idk*/
-body{
-    font-family:  'Times New Roman', Times, serif;
-    color:black;
-}
-/*start of header styling*/
+/*header styling starts here*/
 header{
-    background-color: mediumaquamarine;
-    padding: 20px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    background-color: black;
+    padding: 15px 30px;
 }
+/*adjustment of h1 in header*/
 header h1{
-    font-weight: bold;
     font-size: 38px;
     color: white;
-    margin: 0;
+    font-weight: bold;
+    padding: 25px 0;
+    display:  inline-block;
+    position: relative;
+    margin-left: 5px;
+}
+/*making the navigation links not look like links*/
+header a{
+    text-decoration: none;
+    color: white;
 }
 header nav{
     margin: 7px 0;
 }
+/*setting up navigation elements with spacing*/
 header nav ul{
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    list-style: none;
 }
-header nav ul li a{
-    margin: 0 30px;
+header nav ul li a {
+    padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.65vw;
-    border: 2px solid black;
-    padding: 2px;
+    font-size: 1.55vw;
 }
-/*end header styling for now*/
-.aboutme{
 
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.aboutme h2{
-    font-size: 48px;
-}
-.aboutmetxt{
-    display:flex;
-    justify-content: right;
-    flex-wrap: wrap;
-}
