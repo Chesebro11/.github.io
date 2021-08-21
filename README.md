@@ -10,4 +10,6 @@ I struggled quite a bit with flexbox I still dont feel like I have a hang of it 
 
 Not sure what this readme is I don't know what else to put in here lul
 
+https://chesebro11.github.io/My-Professional-Portfolio/
+
 Coded using HTML and CSS
