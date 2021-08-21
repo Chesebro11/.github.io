@@ -153,59 +153,11 @@ footer a{
     color: white;
 }
 @media screen and (max-width: 980px) {
-    header, footer {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
-
-     header h1, footer h1 {
-         width: 100%;
-         text-align: center;
-     }
-
-      header nav ul, footer ul {
-          margin-top: 20px;
-          width: 100%;
-          font-size: 22px;
-      }
-
-      header nav ul li a {
-          font-size: 20px;
-      }
-
-      footer h2 {
-          text-align: center;
-          width: 100%;
-      }
-     .project, .otherprojects {
-         width: 100%;
-         text-align: center;
-         flex: 0 70%;
-    }
+  
 }
 @media screen and (max-width: 768px) {
-    header, footer {
-        font-size: 28px;
-    }
-    .projects{
-        font-size: 22px;
-
-    }
+ 
 }
 @media screen and (max-width: 575px) {
-    .project {
-        width: 100%;
-    }
-
-    .otherprojects {
-        width: 95%;
-    }
-
-    .project, .otherprojects p {
-        width: 100%;
-    }
-    .about{
-        font-size: 24px;
-    }
+ 
 }
